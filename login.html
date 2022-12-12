@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas UAS</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav>
+
+        <input type="checkbox" id="nav-button">
+        <label for="nav-button">&#9776</label>
+        <div class="logo">
+            <img src="download-removebg-preview.png" alt="">
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Products.html">Products</a>
+                <ul class="dropdown">
+                    <li><a href="">Cek Tarif</a></li>
+                    <li><a href="">Lacak Paket</a></li>
+                    <li><a href="">Cari Drop Point</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        
+    </nav>
+    <header>
+        <div class="container">
+            <form name="fform" onsubmit="return login()">
+                <h1>
+                    Login
+                </h1>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <br>
+
+                <button type="submit">
+                    <a href="#">Login</a>
+                </button>
+                <p>
+                    Don't have an account yet? <a href="register.html">Register</a> now!
+                </p>
+            </form>
+        </div>
+    </header>
+    <footer>
+        <p align="center" >
+            <a href="http://facebook.com" target="_balnk"><img src="facebook-fill.png" width="40" height="40"></a>
+              <a href="http://instagram.com" target="_balnk"><img src="instagram-line.png" width="40" height="40"></a>
+                <a href="http://twitter.com" target="_balnk"><img src="twitter-fill.png" width="40" height="40"></a>       
+        </p>
+        <p align="center"><strong><em> Copyright <b>SAKARIA</b></s></strong></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
